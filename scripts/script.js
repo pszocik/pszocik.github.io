@@ -1,4 +1,4 @@
-import appData from "./apps";
+import appData from "./apps.js";
 
 const appCardButtons = document.querySelectorAll(".card");
 
