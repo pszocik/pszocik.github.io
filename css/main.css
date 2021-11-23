@@ -1,28 +1,9 @@
 :root {
     --background: hsl(0, 0%, 0%);
-    --card-color: hsl(0, 0%, 21%);
 }
 
 body {
     background: var(--background);
     color: #fff;
     font-family: sans-serif;
-}
-
-.card {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background: var(--card-color);
-    font-size: 3rem;
-    color: #fff;
-    height: 100%;
-    width: 100%;
-    border-radius: 4px;
-    transition: all 500ms;
-}
-
-.card:hover {
-
 }

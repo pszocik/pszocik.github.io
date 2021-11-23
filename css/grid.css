@@ -1,8 +1,13 @@
+:root {
+    --card-color: hsl(194, 68%, 43%);
+}
+
 .animated-grid {
-    height: 90vh;
+    height: calc(100vh - 80px - 60px);
+    padding: 40px;
     display: grid;
-    gap: 1rem;
-    margin: 20px;
+    gap: 2rem;
+    margin: 30px 40px;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
     --stagger-delay: 100ms;
@@ -11,7 +16,7 @@
 @keyframes cardEntrance {
     from {
         opacity: 0;
-        transform: scale(0.3);
+        transform: scale(0.2);
         filter: hue-rotate(180deg);
     }
     to {
@@ -22,7 +27,6 @@
 }
 
 .card {
-    background-color: rgb(36, 243, 147);
     animation: cardEntrance 700ms ease-out;
     animation-fill-mode: backwards;
 }
