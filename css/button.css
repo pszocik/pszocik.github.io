@@ -1,0 +1,15 @@
+.card-button {
+    border: none;
+    background-color: white;
+    color: black;
+    width: min(25%, 100px);
+    height: min(10%, 30px);
+    margin: 5px;
+    padding: 5px;
+    text-decoration: none;
+    transition: all 500ms;
+}
+
+.card-button:hover {
+    transform: scale(1.1);
+}

@@ -1,5 +1,5 @@
 .card {
-    font-size: 3rem;
+    font-size: 3vw;
     color: #fff;
     height: 100%;
     width: 100%;
@@ -45,6 +45,6 @@
 .card-back {
     background-color: #262222;
     transform: rotateX(180deg);
-    font-size: 1rem;
+    font-size: min(3.5vw, 20px);
     border-radius: 10px;
 }
