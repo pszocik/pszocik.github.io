@@ -1,5 +1,5 @@
 .card {
-    font-size: 3vw;
+    font-size: max(4vw, 40px);
     color: #fff;
     height: 100%;
     width: 100%;
