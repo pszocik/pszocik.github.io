@@ -23,7 +23,7 @@
 }
 
 .card:hover .card-inner {
-    transform: rotateY(180deg);
+    transform: rotateX(180deg);
 }
 
 .card-front, .card-back {
@@ -45,7 +45,7 @@
 
 .card-back {
     background-color: #262222;
-    transform: rotateY(180deg);
+    transform: rotateX(180deg);
     font-size: 1rem;
     border-radius: 10px;
 }
