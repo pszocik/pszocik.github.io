@@ -7,7 +7,6 @@
     cursor: pointer;
     position: relative;
     transform-style: preserve-3d;
-    perspective: 1000px;
     background-color: transparent;
     border-radius: 10px;
 }
@@ -23,7 +22,7 @@
 }
 
 .card:hover .card-inner {
-    transform: rotateX(180deg);
+    transform: perspective(1000px) rotateX(180deg);
 }
 
 .card-front, .card-back {
